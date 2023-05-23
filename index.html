@@ -1,23 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
     <head>
-        <title>Austria - Land of Culture and Beauty</title>
-        <!-- Link to Bootstrap CSS -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Austria Website</title>
+
+        <!-- Bootstrap CSS -->
         <link
             rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-        <!-- Link to Font Awesome CSS -->
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <!-- Bootstrap JS CDN -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script type="text/javascript" src="script.js"></script>
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+            crossorigin="anonymous">
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+            integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+            crossorigin="anonymous"></script>
     </head>
+
     <body>
-        <header class="bg-primary text-white">
-            <nav class="navbar navbar-expand-lg bg-light">
+
+        <div class="container-main">
+
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg bg-light sticky-top">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"><img src="Flag-Austria.jpeg" alt="" width="50"></a>
                     <button
@@ -90,82 +98,55 @@
                     </div>
                 </div>
             </nav>
-        </header>
-        <main class="container my-5">
-            <section>
-                <h2 class="mb-4">Explore the Best of Austria</h2>
-                <div class="row">
-                    <div class="col-md-6 mb-4">
-                        <div class="card border-0">
-                            <img src="https://picsum.photos/id/10/400/300" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h3 class="card-title">Vienna</h3>
-                                <p class="card-text">Vienna is Austria's capital and largest city, known for its
-                                    stunning architecture, rich history, and vibrant cultural scene.</p>
-                                <a href="#" class="btn btn-primary">
-                                    <i class="fas fa-map-marker-alt me-2"></i>Visit Vienna</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mb-4">
-                        <div class="card border-0">
-                            <img src="https://picsum.photos/id/20/400/300" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h3 class="card-title">Salzburg</h3>
-                                <p class="card-text">Salzburg is a picturesque city in central Austria, famous
-                                    for its well-preserved Old Town, Baroque architecture, and links to Mozart.</p>
-                                <a href="#" class="btn btn-primary">
-                                    <i class="fas fa-map-marker-alt me-2"></i>Visit Salzburg</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+            <header id="header"></header>
+
+            <section class="main-section">
+              <div class="title-section">
+                <h1>Austria</h1>
+              </div>
             </section>
-            <hr>
-            <section>
-                <h2 class="mb-4">Discover Austria's Rich Culture</h2>
-                <div class="row">
-                    <div class="col-md-4 mb-4">
-                        <div class="card border-0">
-                            <img src="https://picsum.photos/id/30/400/300" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h3 class="card-title">Museums</h3>
-                                <p class="card-text">Austria has a wealth of museums covering a wide range of
-                                    topics, from art and history to science and technology.</p>
-                                <a href="#" class="btn btn-outline-primary">
-                                    <i class="fas fa-external-link-alt me-2"></i>View Museums</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card border-0">
-                            <img src="https://picsum.photos/id/40/400/300" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h3 class="card-title">Music</h3>
-                                <p class="card-text">Austria is renowned for its contributions to classical
-                                    music, with famous composers such as Mozart, Beethoven, and Strauss hailing from
-                                    the country.</p>
-                                <a href="#" class="btn btn-outline-primary">
-                                    <i class="fas fa-external-link-alt me-2"></i>Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card border-0">
-                            <img src="https://picsum.photos/id/50/400/300" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h3 class="card-title">Cuisine</h3>
-                                <p class="card-text">Austrian cuisine is hearty and filling, with dishes such as
-                                    Wiener Schnitzel, Tafelspitz, and Apfelstrudel being popular throughout the
-                                    country.</p>
-                                <a href="#" class="btn btn-outline-primary">
-                                    <i class="fas fa-external-link-alt me-2"></i>Discover More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            
+            <section class="card-section">
+              <div class="card-content card">
+                <h2>Politics</h2>
+                <img src="https://via.placeholder.com/150" alt="Politics Placeholder" class="card-image">
+                <p>Austria is a federal parliamentary republic with a president as the head of state and a chancellor as the head of government. The country follows a multi-party system, with the Austrian Parliament consisting of two chambers: the National Council and the Federal Council.</p>
+                <button class="card-button">
+                  <a href="/HTML/politics.html">Learn More</a>
+                </button>
+              </div>
+            
+              <div class="card-content card">
+                <h2>National Meals</h2>
+                <img src="https://via.placeholder.com/150" alt="National Meals Placeholder" class="card-image">
+                <p>Austria is known for its delicious cuisine. Some popular national meals include Wiener Schnitzel (breaded and fried veal or pork cutlet), Sachertorte (a famous Viennese chocolate cake), Tafelspitz (boiled beef with horseradish sauce), and Apfelstrudel (apple strudel).</p>
+                <button class="card-button">
+                  <a href="/HTML/gerichte.html">Learn More</a>
+                </button>
+              </div>
+            
+              <div class="card-content card">
+                <h2>States in Austria</h2>
+                <img src="https://via.placeholder.com/150" alt="States Placeholder" class="card-image">
+                <p>Austria consists of nine federal states, also known as Bundesländer. They are Burgenland, Carinthia, Lower Austria, Upper Austria, Salzburg, Styria, Tyrol, Vorarlberg, and Vienna. Each state has its own distinct characteristics, cultural traditions, and natural landscapes.</p>
+                <button class="card-button">
+                  <a href="states.html">Learn More</a>
+                </button>
+              </div>
             </section>
-            <hr>
-        </main>
-    </body>
-</html>
+
+            <section class="info-section">
+                <div class="info-content">
+                  <h2>Location of Austria</h2>
+                  <img src="https://via.placeholder.com/300" alt="Austria Location Placeholder" class="info-image">
+                  <p>Austria is a landlocked country located in Central Europe. It shares borders with eight countries: Germany, Czech Republic, Slovakia, Hungary, Slovenia, Italy, Switzerland, and Liechtenstein. The country's central location makes it easily accessible and offers diverse landscapes ranging from the stunning Austrian Alps to charming lakes and historic cities.</p>
+                </div>
+              </section>
+            </section>
+            
+
+        </div>
+        <script src="main.js"></script>
+
+    </html>
